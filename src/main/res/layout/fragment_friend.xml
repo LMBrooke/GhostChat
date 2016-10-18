@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ListView
+        android:id="@+id/lv_friend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+    </ListView>
+
+    <com.example.ghostchat.view.LetterIndexView
+        android:id="@+id/liv_letter"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/show_letter"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="NewText"
+        android:gravity="center"
+        android:background="#01fa8e"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:visibility="gone"/>
+
+
+
+</RelativeLayout>
